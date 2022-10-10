@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: red;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    background-color: white;
+    margin: 0 20px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 2px rgb(87, 87, 87);
+}
