@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <nav class="container-fluid navbar navbar-expand-lg bg-dark text-light">
+      <nav class="container-fluid navbar navbar-expand-lg bg-light text-dark shadow">
         <div class="container py-3">
           <a class="navbar-brand" href="#">ROFIQI PORTOFOLIO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,9 +23,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Project</a>
-              <a class="nav-link" href="#">Contac Me</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#contact">Contac Me</a>
             </div>
           </div>
         </div>
@@ -33,70 +33,74 @@
     </header>
 
     <main class="container-fluid p-0">
-      <section class="container-fluid text-center bg-primary text-light">
-        <div>
-          <img src="img/profil.jpg" alt="profil" width="200px" class="border border-dark rounded-circle shadow-sm" />
-          <h2>AHMAD ROFIQI</h2>
+      <section id="home" class="container-fluid text-center bg-primary bg-gradient text-light p-5">
+        <div class="p-5">
+          <img src="img/profil.jpg" alt="profil" width="200px" class="foto-profil shadow" />
+          <h2 class="display-4">AHMAD ROFIQI</h2>
           <p>Mahasiswa | Calon Programer</p>
         </div>
       </section>
 
-      <section class="container-fluid project">
-        <div class="row">
+      <section id="project" class="container-fluid project p-5">
+        <div class="row p-5">
           <div class="text-center">
-            <h2>Project Me</h2>
+            <h2 class="display-4">Project Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center gap-2">
-          <div class="card col-2">
+        <div class="row justify-content-center gap-3 p-4 flex-row">
+          <div class="card-project card col-2 shadow">
             <img src="img/galeri/1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <a href="#"><button type="button" class="btn btn-info m-2">open project</button></a>
           </div>
-          <div class="card col-2">
+          <div class="card-project card col-2 shadow">
             <img src="img/galeri/2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <a href="#"><button type="button" class="btn btn-info m-2">open project</button></a>
           </div>
-          <div class="card col-2">
+          <div class="card-project card col-2 shadow">
             <img src="img/galeri/3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <a href="#"><button type="button" class="btn btn-info m-2">open project</button></a>
           </div>
-          <div class="card col-2">
+          <div class="card-project card col-2 shadow">
             <img src="img/galeri/4.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <a href="#"><button type="button" class="btn btn-info m-2">open project</button></a>
           </div>
         </div>
       </section>
 
-      <section class="container-fluid bg-primary">
-        <div class="row text-center pb-5">
-          <h2>Contact Me</h2>
+      <section id="contact" class="container-fluid bg-primary bg-gradient p-5">
+        <div class="row text-center p-5">
+          <h2 class="display-5">Contact Me</h2>
         </div>
-        <div class="row justify-content-center p-3">
-          <div class="col-6 text-end">
+        <div class="row justify-content-center p-4">
+          <div class="medsos col-2 text-center">
             <a href="no:085157066051"><em class="bi bi-whatsapp text-dark p-3" style="font-size: 50px"></em></a>
           </div>
-          <div class="col-6 text-start">
+          <div class="medsos col-2 text-center">
             <a href="#"><em class="bi bi-envelope text-dark p-3" style="font-size: 50px"></em></a>
           </div>
-          <div class="col-6 text-end">
+          <div class="medsos col-2 text-center">
             <a href="#"><em class="bi bi-instagram text-dark p-3" style="font-size: 50px"></em></a>
           </div>
-          <div class="col-6 text-start">
+          <div class="medsos col-2 text-center">
             <a href="https://github.com/ARofiqi"><em class="bi bi-github text-dark p-3" style="font-size: 50px"></em></a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="container-fluid bg-dark text-light">
+    <footer class="container-fluid bg-light text-dark shadow">
       <div class="container">
         <div class="py-4 text-center text-primary">&copy; copyright by Ahmad Rofiqi</div>
       </div>

@@ -1,3 +1,24 @@
 .project{
     background-color: #f6f6f6;
 }
+
+.card-project:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.medsos:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.foto-profil{
+    transition: 1s;
+    border-radius: 50%;
+}
+
+.foto-profil:hover{
+    transform: scale(2);
+    border-radius: 0px;
+    cursor: pointer;
+}
