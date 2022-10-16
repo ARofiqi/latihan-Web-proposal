@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.medsos{
+    transition: 1s;
+}
+
 .medsos:hover{
     opacity: .8;
     cursor: pointer;
